@@ -1,6 +1,7 @@
 <map version="freeplane 1.2.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="Overview" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1368645160235"><hook NAME="MapStyle" zoom="1.948">
+    <properties show_icon_for_attributes="true"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node">
@@ -50,8 +51,9 @@
 </map_styles>
 </hook>
 <hook NAME="AutomaticEdgeColor" COUNTER="1"/>
-<node TEXT="cgminer" POSITION="right" ID="ID_1641982797" CREATED="1368645174757" MODIFIED="1368650623432">
+<node TEXT="cgminer" POSITION="right" ID="ID_1641982797" CREATED="1368645174757" MODIFIED="1369252407148">
 <edge COLOR="#ff0000"/>
+<attribute NAME="spent" VALUE="2" OBJECT="org.freeplane.features.format.FormattedNumber|2"/>
 <node TEXT="miner.h: device_drv" ID="ID_530366519" CREATED="1368653725574" MODIFIED="1368653745418"/>
 <node TEXT="--scan-serial /dev/ttyACM0" ID="ID_261035565" CREATED="1368656106405" MODIFIED="1368656123845"/>
 <node TEXT="./configure --enable-avalon" ID="ID_69379787" CREATED="1368656127356" MODIFIED="1368656142556"/>
