@@ -2,6 +2,7 @@
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="Overview" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1368645160235"><hook NAME="MapStyle" zoom="1.948">
     <properties show_icon_for_attributes="true"/>
+
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node">
 <stylenode LOCALIZED_TEXT="styles.predefined" POSITION="right">
@@ -50,19 +51,22 @@
 </map_styles>
 </hook>
 <hook NAME="AutomaticEdgeColor" COUNTER="5"/>
-<node TEXT="cgminer" POSITION="right" ID="ID_1641982797" CREATED="1368645174757" MODIFIED="1368650623432">
+<node TEXT="cgminer" POSITION="right" ID="ID_1641982797" CREATED="1368645174757" MODIFIED="1369336658904">
 <edge COLOR="#ff0000"/>
-<attribute NAME="spent" VALUE="2" OBJECT="org.freeplane.features.format.FormattedNumber|2"/>
-<node TEXT="compilation" ID="ID_1351544075" CREATED="1369086747057" MODIFIED="1369086756916">
+<node TEXT="compilation" ID="ID_1351544075" CREATED="1369086747057" MODIFIED="1369336644525">
+<attribute NAME="spent" VALUE="1" OBJECT="org.freeplane.features.format.FormattedNumber|1"/>
 <node TEXT="git://github.com/ckolivas/cgminer.git" ID="ID_820020310" CREATED="1369086944269" MODIFIED="1369086966552"/>
-<node TEXT="./configure --enable-avalon" ID="ID_69379787" CREATED="1368656127356" MODIFIED="1368656142556"/>
+<node TEXT="./configure --enable-avalon --disable-opencl" ID="ID_69379787" CREATED="1368656127356" MODIFIED="1369335819866"/>
 </node>
-<node TEXT="run" ID="ID_1995349920" CREATED="1369086773806" MODIFIED="1369086778699">
-<node TEXT="--scan-serial /dev/ttyACM0" ID="ID_261035565" CREATED="1368656106405" MODIFIED="1368656123845"/>
+<node TEXT="run" ID="ID_1995349920" CREATED="1369086773806" MODIFIED="1369336632316">
+<attribute NAME="spent" VALUE="1" OBJECT="org.freeplane.features.format.FormattedNumber|1"/>
+<node TEXT="--scan-serial AVA:/dev/ttyACM0 --debug" ID="ID_261035565" CREATED="1368656106405" MODIFIED="1369335831918"/>
+<node TEXT="Sends one reset byte to arduino but then crashes, detecting it is not an avalon" ID="ID_1639444794" CREATED="1369336742927" MODIFIED="1369336777311"/>
+<node TEXT="asic_num staat blijkbaar op 10, 56 byte buffer wordt klaar gemaakt" ID="ID_1951298373" CREATED="1369336778485" MODIFIED="1369336815420"/>
 </node>
 <node TEXT="code" ID="ID_410909745" CREATED="1369086788933" MODIFIED="1369086790291">
+<node TEXT="driver-avalon.c" ID="ID_1734081111" CREATED="1369336693578" MODIFIED="1369336706385"/>
 <node TEXT="miner.h: device_drv" ID="ID_530366519" CREATED="1368653725574" MODIFIED="1368653745418"/>
-<node TEXT="usbutils.c: usb_all" ID="ID_1890968719" CREATED="1369097258191" MODIFIED="1369097387197"/>
 </node>
 </node>
 <node TEXT="klondike" POSITION="right" ID="ID_103679392" CREATED="1369095098323" MODIFIED="1369095102710">
@@ -73,8 +77,9 @@
 <node TEXT="USB-capable microcontroller" ID="ID_322649782" CREATED="1369096743857" MODIFIED="1369096758026"/>
 </node>
 </node>
-<node TEXT="bitcoin" POSITION="left" ID="ID_1547814789" CREATED="1369095618721" MODIFIED="1369095623103">
+<node TEXT="bitcoin" POSITION="left" ID="ID_1547814789" CREATED="1369095618721" MODIFIED="1369336675224">
 <edge COLOR="#ff00ff"/>
+<attribute NAME="spent" VALUE="0,5" OBJECT="org.freeplane.features.format.FormattedNumber|0.5|#0.####"/>
 <node TEXT="login: gfannes/s...42" ID="ID_1308657549" CREATED="1369095626404" MODIFIED="1369095648316"/>
 <node TEXT="workers: gfannes/gfannes" ID="ID_925896143" CREATED="1369095655387" MODIFIED="1369095665647"/>
 <node TEXT="info" ID="ID_901105347" CREATED="1369095672184" MODIFIED="1369095674774">
