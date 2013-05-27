@@ -82,11 +82,12 @@
 </node>
 <node TEXT="bitcoin" POSITION="left" ID="ID_1547814789" CREATED="1369095618721" MODIFIED="1369336675224">
 <edge COLOR="#ff00ff"/>
-<attribute NAME="spent" VALUE="0.5" OBJECT="org.freeplane.features.format.FormattedNumber|0.5|#0.####"/>
+<attribute NAME="spent" VALUE="0,5" OBJECT="org.freeplane.features.format.FormattedNumber|0.5|#0.####"/>
 <node TEXT="login: gfannes/s...42" ID="ID_1308657549" CREATED="1369095626404" MODIFIED="1369095648316"/>
 <node TEXT="workers: gfannes/gfannes" ID="ID_925896143" CREATED="1369095655387" MODIFIED="1369095665647"/>
 <node TEXT="info" ID="ID_901105347" CREATED="1369095672184" MODIFIED="1369095674774">
 <node TEXT="bitcoin" ID="ID_1222565675" CREATED="1369086447836" MODIFIED="1369095685139" LINK="http://bitcoin.org/bitcoin.pdf"/>
+<node TEXT="maybe forward port 8333" ID="ID_265369577" CREATED="1369693824252" MODIFIED="1369693842578"/>
 </node>
 </node>
 <node TEXT="avalon" POSITION="left" ID="ID_1767981030" CREATED="1369096824703" MODIFIED="1369096829694">
